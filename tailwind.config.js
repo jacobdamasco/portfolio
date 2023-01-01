@@ -8,8 +8,9 @@ module.exports = {
       },
       fontSize: {
         'intro': '2rem',
-        'name': '3.5rem',
-        'subheader': '1.5rem'
+        'name': '6.25rem',
+        'section-header': '2rem',
+        'subheader': '1.5rem',
       },
     },
   },

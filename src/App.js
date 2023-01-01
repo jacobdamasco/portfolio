@@ -1,12 +1,18 @@
 import './App.css';
 import Navbar from './components/Navbar.js'
-import TitlePage from './components/TitlePage.js'
+import Hero from './components/Hero.js'
+import AboutMe from './components/AboutMe.js'
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <>
       <Navbar />
-      <TitlePage />
+      <Hero />
+      <AboutMe />
+      <Projects />
+      <Contact />
     </>
   );
 }
