@@ -12,7 +12,6 @@ function App() {
       <Hero />
       <AboutMe />
       <Projects />
-      <Contact />
     </>
   );
 }
