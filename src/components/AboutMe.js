@@ -11,7 +11,7 @@ const AboutMe = () => {
                     {'>'} React, JavaScript, C/C++, Arduino UNO {'<'}
                 </p>
                 <p className="flex flex-row">
-                    Putting CS aside, I love learning to cook new dishes, exploring new places/adventure spots, and working out. It won't be hard to find me exploring some good boba shops or coffee shops around the Bay Area or LA. Side note: one of my most favorite travel trips was to Tokyo, Japan. Click here to see a short vlog recap! 
+                    Putting CS aside, I love learning to cook new dishes, exploring new places/adventure spots, and working out. It won't be hard to find me exploring some good boba shops or coffee shops around the Bay Area or LA. Side note: one of my most favorite travel trips was to Tokyo, Japan. Short vlog recap coming soon! 
                 </p>
                 <p className="flex flex-row">
                     I'm currently looking for a Summer 2023 internship! Feel free to reach out & get in touch with me via the links above and at the bottom, or send a message via LinkedIn.
