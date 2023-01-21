@@ -13,3 +13,19 @@ body {
   font-family: 'Lato', sans-serif;
   width: 100%;
 }
+
+.dropdown {
+  overflow: hidden;
+  height: 0px;
+  transition: height 0.3s ease;
+  padding: 0;
+}
+
+.dropdown-container {
+}
+
+.dropdown-active {
+  height: 22vh;
+  overflow: auto;
+  transition: height 0.3s ease;
+}

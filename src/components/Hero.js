@@ -1,21 +1,36 @@
-import me from '../imgs/me_title_pg.png'
+import Fade from 'react-reveal/Fade';
+import me from '../assets/me_title_pg.png'
+import resume from '../assets/Jacob Damasco Resume.pdf'
 
 const Hero = () => {
     return (
         <>
         <div className="bg-gray-50 px-8 md:p-8 md:flex md:flex-row">
             {/* left */}
-            <div className="justify-center my-auto space-y-4 md:flex md:flex-col md:px-8 py-8 md:pr-16 md:basis-3/5 md:space-y-10">
-                <h1 className="text-sm-subtitle text-gray-500 md:text-subtitle">Hi, I'm</h1>
+            <div className="justify-center my-auto space-y-4 md:flex md:flex-col md:px-8 py-8 md:pr-16 md:basis-1/2 md:space-y-10 xl:basis-3/5">
+                <Fade bottom cascade>
+                    <div className="my-auto space-y-4 md:space-y-8">
+                        <h1 className="text-sm-subtitle text-gray-500 md:text-subtitle">Hi, I'm</h1>
+                        <h1 className="text-sm-name font-semibold drop-shadow-sm-name text-blue-500 md:text-name md:font-normal md:drop-shadow-md-name">Jacob Damasco</h1>
+                        <p className="text-sm-subtitle text-gray-500 md:text-subtitle">
+                        I'm a junior <span className="font-normal text-blue-500 hover:text-blue-600">computer engineering/computer science</span> major at USC with a passion for engineering. 
+                        </p>
+                    </div>
+                </Fade>
+                
+                {/* <h1 className="text-sm-subtitle text-gray-500 md:text-subtitle">Hi, I'm</h1>
                 <h1 className="text-sm-name font-semibold drop-shadow-sm-name text-blue-500 md:text-name md:font-normal md:drop-shadow-md-name">Jacob Damasco</h1>
                 <p className="text-sm-subtitle text-gray-500 md:text-subtitle">
                 I'm a junior <span className="font-normal text-blue-500 hover:text-blue-600">computer engineering/computer science</span> major at USC with a passion for engineering. 
-                </p>
+                </p> */}
 
+                <Fade bottom cascade>
                 {/* links */}
                 <div className="flex flex-row py-4 md:justify-start">
                     <div className="flex flex-col md:basis-1/8 mr-3 md:mr-0">
-                        <button className="bg-blue-500 hover:bg-blue-600 text-white px-[0.75rem] py-[0.375rem] md:mr-4 md:py-2 md:px-8 rounded-xl text-sm md:text-xl">Resume</button>
+                        <button className="bg-blue-500 hover:bg-blue-600 text-white px-[0.75rem] py-[0.375rem] md:mr-4 md:py-2 md:px-8 rounded-xl text-sm md:text-xl">
+                            <a href={resume} target="_blank" rel="noreferrer">Resume</a>
+                        </button>
                     </div>
 
                     {/* LinkedIn */}
@@ -42,11 +57,14 @@ const Hero = () => {
 
                     <div className="flex flex-col basis-1/2"></div>
                 </div>
+                </Fade>
             </div>
 
             {/* right */}
-            <div className="px-8 md:flex md:basis-2/5">
+            <div className="px-8 md:flex md:basis-1/2 xl:basis-2/5">
+                <Fade>
                 <img src={me} alt="Jacob Damasco at USC" className="shadow-lg shadow-gray-400 md:shadow-2xl md:shadow-gray-500 rounded-xl w-full object-cover object-center"/>
+                </Fade>
             </div>
         </div>
         </>

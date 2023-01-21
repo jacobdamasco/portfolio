@@ -1,16 +1,18 @@
-import ffBabyShower from '../imgs/ff_baby_shower.png'
-import ocr from '../imgs/ocr.png'
-import grocerup from '../imgs/grocerup.png'
+import Fade from 'react-reveal/Fade';
+import ffBabyShower from '../assets/ff_baby_shower.png'
+import ocr from '../assets/ocr.png'
+import grocerup from '../assets/grocerup.png'
 
 const Projects = () => {
     return (
     <>
-    <div className="md:flex md:flex-col md:px-16 md:py-8 xl:py-16 bg-gray-50">
+    <div className="md:flex md:flex-col md:px-16 md:py-8 xl:py-10 bg-gray-50">
         <div className="flex flex-row px-8 py-4 text-subheader text-blue-500 font-semibold md:px-4 md:text-3xl md:pb-8 lg:pb-12">Projects</div>
 
         {/* project container */}
         <div className="space-y-8 md:space-y-12 md:px-16 lg:space-y-16 lg:px-0 xl:px-20 xl:space-y-20"> 
             {/* project 1 */}
+            <Fade bottom>
             <div className="md: md:rounded-xl lg:flex lg:flex-row lg:px-4 justify-center">
                 {/* img container */}
                 <div className="hidden md:flex lg:flex-col lg:basis-[45%]">
@@ -28,14 +30,16 @@ const Projects = () => {
                     </div>
                     <div className="flex flex-row justify-center">
                         <button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl text-center px-3 py-1 mt-2 md:px-4 md:py-2 md:rounded-lg">
-                            <a href="#" target="_blank" rel="noreferrer">View on Github</a>
+                            <a href="https://gitfront.io/r/jacobdamasco/QHAiSy7wLSX7/ocr-optical-character-recognition/" target="_blank" rel="noreferrer">View on Github</a>
                         </button>
                     </div>
                 </div>
                 </div>
             </div>
+            </Fade>
 
             {/* project 2 */}
+            <Fade bottom>
             <div className="md:rounded-xl lg:flex lg:flex-row lg:px-4 justify-center">
                 {/* img container */}
                 <div className="hidden md:flex lg:hidden lg:flex-col lg:basis-[45%]">
@@ -64,8 +68,10 @@ const Projects = () => {
                     <img src={ffBabyShower} alt="OCR: Optical Character Recognition" className="h-full object-cover object-center lg:shadow-2xl lg:shadow-gray-500"/>
                 </div>
             </div>
+            </Fade>
 
             {/* project 3 */}
+            <Fade bottom>
             <div className="md: md:rounded-xl lg:flex lg:flex-row lg:px-4 justify-center">
                 {/* img container */}
                 <div className="hidden md:flex lg:flex-col lg:basis-[45%]">
@@ -89,6 +95,7 @@ const Projects = () => {
                 </div>
                 </div>
             </div>
+            </Fade>
 
         </div>
     </div>
