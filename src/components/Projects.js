@@ -6,7 +6,7 @@ import grocerup from '../assets/grocerup.png'
 const Projects = () => {
     return (
     <>
-    <div className="md:flex md:flex-col py-8 md:px-16 md:py-8 xl:py-10 bg-gray-50">
+    <div id="projects" className="md:flex md:flex-col py-8 md:px-16 md:py-8 xl:py-10 bg-gray-50">
         <div className="flex flex-row px-8 pb-4 text-subheader text-blue-500 font-semibold md:px-4 md:text-3xl md:pb-8 lg:pb-12">Projects</div>
 
         {/* project container */}

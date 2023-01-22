@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 const AboutMe = () => {
     return (
         <>
-        <div className="flex flex-col max-w-fit px-4 py-8 bg-gray-100">
+        <div id="about" className="flex flex-col max-w-fit px-4 py-8 bg-gray-100">
             <Fade bottom>
             <div className="flex flex-row md:px-12 pb-4 text-subheader md:text-3xl text-blue-500 font-semibold">About Me</div>
             </Fade>

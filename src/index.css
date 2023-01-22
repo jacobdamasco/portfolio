@@ -27,6 +27,18 @@ body {
   transition: height 0.3s ease;
 }
 
+.nav-elem {
+  transition: ease-in-out 0.15s;
+}
+
+.nav-elem:hover {
+  text-shadow: 2px 5px 5px #909090;
+}
+
+.show-cursor {
+  cursor: pointer;
+}
+
 .button-link {
   opacity: 0.9;
   background: rgb(59 130 246);
