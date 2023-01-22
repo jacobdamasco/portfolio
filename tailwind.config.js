@@ -13,7 +13,9 @@ module.exports = {
         'sm-subtitle': ['1.25rem', '1.75rem'],
         'subtitle': ['1.75rem', '2.5rem'],
         'subheader': ['1.5rem', '2.25rem'],
-        'sm-subheader': ['1.25rem', '2rem']
+        'sm-subheader': ['1.25rem', '2rem'],
+        'sm-contact': ['2.4rem', '4.25rem'],
+        'sm-contact-msg': ['1.15rem', '1.75rem'],
       }
     },
   },

@@ -6,8 +6,8 @@ import grocerup from '../assets/grocerup.png'
 const Projects = () => {
     return (
     <>
-    <div className="md:flex md:flex-col md:px-16 md:py-8 xl:py-10 bg-gray-50">
-        <div className="flex flex-row px-8 py-4 text-subheader text-blue-500 font-semibold md:px-4 md:text-3xl md:pb-8 lg:pb-12">Projects</div>
+    <div className="md:flex md:flex-col py-8 md:px-16 md:py-8 xl:py-10 bg-gray-50">
+        <div className="flex flex-row px-8 pb-4 text-subheader text-blue-500 font-semibold md:px-4 md:text-3xl md:pb-8 lg:pb-12">Projects</div>
 
         {/* project container */}
         <div className="space-y-8 md:space-y-12 md:px-16 lg:space-y-16 lg:px-0 xl:px-20 xl:space-y-20"> 
@@ -29,7 +29,7 @@ const Projects = () => {
                         <p className="px-10 text-center justify-center lg:px-20 lg:text-lg">A C++ program that recognizes two numbers from two bmp files and adds or subtracts the numbers. All developed without the use of machine learning libraries! Instead, I used different mathematical techniques to determine digits, like Euler number, center of mass, & symmetry.</p>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl text-center px-3 py-1 mt-2 md:px-4 md:py-2 md:rounded-lg">
+                        <button className="button-link text-white rounded-xl text-center px-3 py-1 mt-2 md:px-4 md:py-2 md:rounded-lg">
                             <a href="https://gitfront.io/r/jacobdamasco/QHAiSy7wLSX7/ocr-optical-character-recognition/" target="_blank" rel="noreferrer">View on Github</a>
                         </button>
                     </div>
@@ -56,7 +56,7 @@ const Projects = () => {
                         <p className="px-10 text-center justify-center lg:px-20 lg:text-lg">A game based off the popular TV game show Family Feud, except for my cousin's baby shower. Fully equipped with music, sound effects, and proper scoring. Play it with your family! When I pulled this up, little did I know that the two teams would go wild for it.</p>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl text-center px-3 py-1 mt-2 md:px-4 md:py-2 md:rounded-lg">
+                        <button className="button-link text-white rounded-xl text-center px-3 py-1 mt-2 md:px-4 md:py-2 md:rounded-lg">
                             <a href="https://github.com/jacobdamasco/family-feud-baby-shower" target="_blank" rel="noreferrer">View on Github</a>
                         </button>
                     </div>
@@ -88,7 +88,7 @@ const Projects = () => {
                         <p className="px-10 text-center justify-center lg:px-20 lg:text-lg">A web app where you can manage your fridge, pantry, & cupboard inventory and plan your next grocery trip. With a personal account, you can easily manage your grocery lists. Organize them by store, by produce, or just how you like it.</p>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <button className="bg-blue-500 hover:bg-blue-600 text-white rounded-xl text-center px-3 py-1 mt-2 md:px-4 md:py-2 md:rounded-lg">
+                        <button className="button-link text-white rounded-xl text-center px-3 py-1 mt-2 md:px-4 md:py-2 md:rounded-lg">
                             <a href="https://github.com/jacobdamasco/grocerup" target="_blank" rel="noreferrer">View on Github</a>
                         </button>
                     </div>

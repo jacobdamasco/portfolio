@@ -21,11 +21,29 @@ body {
   padding: 0;
 }
 
-.dropdown-container {
-}
-
 .dropdown-active {
   height: 22vh;
   overflow: auto;
   transition: height 0.3s ease;
+}
+
+.button-link {
+  opacity: 0.9;
+  background: rgb(59 130 246);
+  transition: 0.3s;
+}
+
+.button-link:hover {
+  background: rgb(37 99 235);
+  opacity: 1;
+}
+
+.footer-link {
+  font-weight: 400;
+  opacity: 0.5;
+  transition: 0.8s;
+}
+
+.footer-link:hover {
+  opacity: 1;
 }

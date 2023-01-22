@@ -5,7 +5,7 @@ import resume from '../assets/Jacob Damasco Resume.pdf'
 const Hero = () => {
     return (
         <>
-        <div className="bg-gray-50 px-8 md:p-8 md:flex md:flex-row">
+        <div className="bg-gray-50 px-8 pb-8 md:p-8 md:flex md:flex-row">
             {/* left */}
             <div className="justify-center my-auto space-y-4 md:flex md:flex-col md:px-8 py-8 md:pr-16 md:basis-1/2 md:space-y-10 xl:basis-3/5">
                 <Fade bottom cascade>
@@ -17,18 +17,12 @@ const Hero = () => {
                         </p>
                     </div>
                 </Fade>
-                
-                {/* <h1 className="text-sm-subtitle text-gray-500 md:text-subtitle">Hi, I'm</h1>
-                <h1 className="text-sm-name font-semibold drop-shadow-sm-name text-blue-500 md:text-name md:font-normal md:drop-shadow-md-name">Jacob Damasco</h1>
-                <p className="text-sm-subtitle text-gray-500 md:text-subtitle">
-                I'm a junior <span className="font-normal text-blue-500 hover:text-blue-600">computer engineering/computer science</span> major at USC with a passion for engineering. 
-                </p> */}
 
                 <Fade bottom cascade>
                 {/* links */}
                 <div className="flex flex-row py-4 md:justify-start">
                     <div className="flex flex-col md:basis-1/8 mr-3 md:mr-0">
-                        <button className="bg-blue-500 hover:bg-blue-600 text-white px-[0.75rem] py-[0.375rem] md:mr-4 md:py-2 md:px-8 rounded-xl text-sm md:text-xl">
+                        <button className="bg-blue-500 button-link text-white px-[0.75rem] py-[0.375rem] md:mr-4 md:py-2 md:px-8 rounded-xl text-sm md:text-xl">
                             <a href={resume} target="_blank" rel="noreferrer">Resume</a>
                         </button>
                     </div>

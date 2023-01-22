@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Fade from 'react-reveal/Fade';
 
 const Navbar = () => {
     // state where dropdown is bool
