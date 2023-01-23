@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 
+import jdLogo from "../assets/icons/jd-white.png";
+
 const Navbar = () => {
     // state where dropdown is bool
     // false if closed, true if open
@@ -17,9 +19,9 @@ const Navbar = () => {
         <>
         <div className="flex flex-row max-w-screen p-4">
             {/* logo */}
-            <div className="basis-[10%] justify-center text-center text-lg">
+            <div className="flex basis-[10%] justify-center text-center text-lg">
                 <Link to="/" spy={true} smooth={true} offset={1} duration={1000}></Link>
-                <ul className="show-cursor font-bold">JD</ul>
+                <img src={jdLogo} alt="JD Logo" width="35" height="35"></img>
             </div> 
 
             {/* filler space */}
