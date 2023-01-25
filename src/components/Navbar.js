@@ -47,8 +47,8 @@ const Navbar = () => {
             <div className={(dropdown ? "dropdown-active " : "dropdown ") + "flex flex-row items-center"}>
                 <ul className="flex flex-col basis-[100%] justify-center my-auto py-auto text-lg space-y-[12px] md:hidden">
                     <li className="flex flex-row px-4 active:bg-gray-200"><Link to="about" spy={true} smooth={true} offset={1} duration={1000}>About</Link></li>
-                    <li className="flex flex-row px-4 active:bg-gray-200"><Link to="about" spy={true} smooth={true} offset={1} duration={1000}>Projects</Link></li>
-                    <li className="flex flex-row px-4 active:bg-gray-200"><Link to="about" spy={true} smooth={true} offset={1} duration={1000}>Contact</Link></li>
+                    <li className="flex flex-row px-4 active:bg-gray-200"><Link to="projects" spy={true} smooth={true} offset={1} duration={1000}>Projects</Link></li>
+                    <li className="flex flex-row px-4 active:bg-gray-200"><Link to="contact" spy={true} smooth={true} offset={1} duration={1000}>Contact</Link></li>
                 </ul>
             </div>
         </div>
