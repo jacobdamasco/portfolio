@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       dropShadow: {
-        'sm-name': '4px 4px 4px rgba(37, 99, 235, 0.3)',
-        'md-name': '6px 6px 6px rgba(37, 99, 235, 0.35)',
+        'sm-name-blue': '4px 4px 4px rgba(37, 99, 235, 0.3)',
+        'md-name-blue': '6px 6px 6px rgba(37, 99, 235, 0.35)',
+        'sm-name-green': '4px 4px 4px rgba(34, 197, 94, 0.3)',
+        'md-name-green': '6px 6px 6px rgba(34, 197, 94, 0.35)',
       },
       fontSize: {
         'name': ['6rem', '6.25rem'],

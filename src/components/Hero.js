@@ -1,5 +1,5 @@
 import Fade from 'react-reveal/Fade';
-import me from '../assets/me_title_pg.png'
+import jacob from '../assets/jacob-seattle.png'
 import resume from '../assets/Jacob Damasco Resume.pdf'
 
 const Hero = () => {
@@ -11,9 +11,9 @@ const Hero = () => {
                 <Fade bottom cascade>
                     <div className="my-auto space-y-4 md:space-y-8">
                         <h1 className="text-sm-subtitle text-gray-500 md:text-subtitle">Hi, I'm</h1>
-                        <h1 className="text-sm-name font-semibold drop-shadow-sm-name text-blue-500 md:text-name md:font-normal md:drop-shadow-md-name">Jacob Damasco</h1>
+                        <h1 className="text-sm-name font-semibold drop-shadow-sm-name-green text-green-600 md:text-name md:font-normal md:drop-shadow-md-name-green">Jacob Damasco</h1>
                         <p className="text-sm-subtitle text-gray-500 md:text-subtitle">
-                        I'm a junior <span className="font-normal text-blue-500 hover:text-blue-600">computer engineering/computer science</span> major at USC with a passion for engineering. 
+                        I'm a junior <span className="font-normal text-green-600 hover:text-green-700">computer engineering/computer science</span> major at USC with a passion for engineering. 
                         </p>
                     </div>
                 </Fade>
@@ -22,7 +22,7 @@ const Hero = () => {
                 {/* links */}
                 <div className="flex flex-row py-4 md:justify-start">
                     <div className="flex flex-col md:basis-1/8 mr-3 md:mr-0">
-                        <button className="bg-blue-500 button-link text-white px-[0.75rem] py-[0.375rem] md:mr-4 md:py-2 md:px-8 rounded-xl text-sm md:text-xl">
+                        <button className="bg-green-600 hover:bg-green-700 text-white px-[0.75rem] py-[0.375rem] md:mr-4 md:py-2 md:px-8 rounded-xl text-sm md:text-xl">
                             <a href={resume} target="_blank" rel="noreferrer">Resume</a>
                         </button>
                     </div>
@@ -57,7 +57,7 @@ const Hero = () => {
             {/* right */}
             <div className="px-8 md:flex md:basis-1/2 xl:basis-2/5">
                 <Fade>
-                <img src={me} alt="Jacob Damasco at USC" className="shadow-lg shadow-gray-400 md:shadow-2xl md:shadow-gray-500 rounded-xl w-full object-cover object-center"/>
+                <img src={jacob} alt="Jacob Damasco" className="shadow-lg shadow-gray-400 md:shadow-2xl md:shadow-gray-500 rounded-xl w-full object-cover object-center"/>
                 </Fade>
             </div>
         </div>
