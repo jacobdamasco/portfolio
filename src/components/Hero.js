@@ -1,6 +1,6 @@
 import Fade from 'react-reveal/Fade';
 import jacob from '../assets/jacob-seattle.png'
-import resume from '../assets/Jacob Damasco Resume.pdf'
+import resume from '../assets/Jacob-Damasco-Resume.pdf'
 
 const Hero = () => {
     return (
