@@ -13,7 +13,7 @@ const Hero = () => {
                         <h1 className="text-sm-subtitle text-gray-500 md:text-subtitle">Hi, I'm</h1>
                         <h1 className="text-sm-name font-semibold drop-shadow-sm-name-green text-green-600 md:text-name md:font-normal md:drop-shadow-md-name-green">Jacob Damasco</h1>
                         <p className="text-sm-subtitle text-gray-500 md:text-subtitle">
-                        I'm a junior <span className="font-normal text-green-600 hover:text-green-700">computer engineering/computer science</span> major at USC with a passion for engineering. 
+                        I'm a student studying <span className="font-normal text-green-600 hover:text-green-700">computer engineering/computer science</span> at USC with a passion for engineering. 
                         </p>
                     </div>
                 </Fade>
