@@ -10,12 +10,12 @@ const AboutMe = () => {
             <div className="px-6 space-y-4 md:space-y-5 md:px-24 md:text-lg">
                 <Fade bottom>
                 <p className="flex flex-row">
-                    Hi! My name is Jacob Damasco & I’m currently a student at USC studying computer engineering & computer science, CECS. Prior to USC, I studied at the University of San Francisco & graduated with a B.S. in Physics. I’m from the Bay Area, and so, I grew up being surrounded by tech. Ever since I took my first programming class, I’ve enjoyed using code to solve problems and implement them in small projects. Some of the new skills & tools I've recently picked up:
+                    Hi! My name is Jacob Damasco & I’m currently a student at USC studying computer science and engineering, CECS. Prior to USC, I studied at the University of San Francisco & graduated with a B.S. in Physics. I’m from the Bay Area, and so, I grew up being surrounded by tech. Ever since I took my first programming class, I’ve enjoyed using code to solve problems and implement them in small projects. Some of the new technologies I've picked up recently:
                 </p>
                 </Fade>
                 <Fade bottom>
                 <p className="flex flex-row px-4 text-green-600 font-semibold drop-shadow-lg">
-                    {'>'} C/C++, React, JavaScript {'<'}
+                    {'>'} React Native, Spring Boot, React, JavaScript, C/C++ {'<'}
                 </p>
                 </Fade>
                 <Fade bottom>
