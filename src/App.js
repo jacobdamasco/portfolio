@@ -5,6 +5,7 @@ import About from './components/About.js'
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Experiences from './components/Experiences.js';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Experiences />
+      {/* <Projects /> */}
     </>
   );
 }
