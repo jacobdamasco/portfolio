@@ -1,9 +1,11 @@
 const Footer = () => {
     return (
     <>
-        <div className="flex flex-col justify-center py-8 bg-gray-50">
-            <div className="flex flex-row justify-center">Designed & Built by Jacob Damasco, 2023</div>
-            <a href="https://github.com/jacobdamasco/portfolio" className="flex flex-row justify-center text-blue-700 footer-link" target="_blank" rel="noreferrer">View on Github</a>
+        <div className="flex flex-col justify-center py-8 bg-green-7 text-green-2 text-xs">
+            <div className="flex flex-row justify-center">Designed & developed by</div>
+            <div className="flex flex-row justify-center">Jacob Damasco.</div>
+            <div className="flex flex-row justify-center pt-6">2024.</div>
+            <a href="https://github.com/jacobdamasco/portfolio" className="flex flex-row justify-center footer-link text-green-3" target="_blank" rel="noreferrer">Github</a>
         </div>
     </>
     )

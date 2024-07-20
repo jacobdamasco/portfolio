@@ -3,10 +3,10 @@ import Fade from 'react-reveal/Fade';
 const ExperienceCard = ({ dates, company, title}) => {
     return (
     <>
-    <div className="text-green-3 font-light px-8">
-        <p className="text-xs pb-2">{dates}</p>
-        <p className="text-green-2 text-2xl font-bold">{company}</p>
-        <p className="">{title}</p>
+    <div className="flex flex-col text-green-3 font-light px-8">
+        <div className="text-[11px] pb-2">{dates}</div>
+        <div className="text-green-2 text-xl font-bold">{company}</div>
+        <div className="text-sm">{title}</div>
     </div>
     </>
     )

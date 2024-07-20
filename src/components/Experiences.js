@@ -8,7 +8,7 @@ const Experiences = ({}) => {
         <Fade bottom>
         <div className="flex flex-row text-green-1 text-3xl font-black p-4">Where I've Worked</div>
         </Fade>
-        <div className="flex flex-col space-y-8 py-4">
+        <div className="flex flex-col space-y-6 py-4">
             <ExperienceCard 
                 dates="May 2024 - Current" 
                 company="LACERA" 

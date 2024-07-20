@@ -55,9 +55,9 @@ const Hero = () => {
             </div>
 
             {/* right */}
-            <div className="md:flex md:basis-1/2 xl:basis-2/5">
+            <div className="flex justify-center">
                 <Fade>
-                <img src={jacob} alt="Jacob Damasco" className="md:shadow-2xl md:shadow-gray-500 rounded-xl w-full object-cover object-center"/>
+                <img src={jacob} alt="Jacob Damasco" className="rounded-xl w-80 object-cover object-center md:shadow-2xl md:shadow-gray-500 "/>
                 </Fade>
             </div>
         </div>
