@@ -10,12 +10,12 @@ const Hero = () => {
         <>
         <div className="bg-green-6 px-10 pb-8 md:p-8 md:flex md:flex-row">
             {/* left */}
-            <div className="justify-center my-auto space-y-10 md:flex md:flex-col md:px-8 py-8 md:pr-16 md:basis-1/2 md:space-y-10 xl:basis-3/5">
+            <div className="justify-center my-auto space-y-10 py-8 md:flex md:flex-col md:px-8 md:pr-16 md:basis-3/5">
                 <Fade bottom cascade>
-                    <div className="text-green-2 text-xl my-auto space-y-5 md:space-y-8">
-                        <h1 className="md:text-subtitle">Hi, I'm</h1>
-                        <h1 className="text-green-1 text-4xl font-black drop-shadow-1 md:text-name md:font-normal md:drop-shadow-md-name-green">Jacob Damasco.</h1>
-                        <p className="md:text-subtitle">
+                    <div className="text-green-2 text-xl my-auto space-y-5">
+                        <h1 className="">Hi, I'm</h1>
+                        <h1 className="text-green-1 text-4xl font-black drop-shadow-1 md:text-[44px]">Jacob Damasco.</h1>
+                        <p className="">
                         I'm a <span className="text-green-3 hover:font-bold hover:cursor-default">software engineering intern</span> at LACERA building products & tools with <span className="text-green-3 hover:font-bold hover:cursor-default">TypeScript & Node.js</span>. 
                         </p>
                     </div>
@@ -25,7 +25,7 @@ const Hero = () => {
                 {/* links */}
                 <div className="flex items-center justify-items-center">
                     <div className="flex basis-1/4 items-center justify-center">
-                        <button className="rounded-xl bg-green-4 text-green-2 px-4 py-1.5 md:mr-4 hover:bg-green-3 hover:text-green-5 hover:font-bold">
+                        <button className="rounded-xl bg-green-4 text-green-2 px-4 py-1.5 hover:bg-green-3 hover:bg-opacity-40 hover:text-green-2 hover:font-bold md:mr-3">
                             <a href={resume} target="_blank" rel="noreferrer">Resume</a>
                         </button>
                     </div>
@@ -55,9 +55,9 @@ const Hero = () => {
             </div>
 
             {/* right */}
-            <div className="flex justify-center">
+            <div className="flex justify-center items-center md:basis-2/5">
                 <Fade>
-                <img src={jacob} alt="Jacob Damasco" className="rounded-xl w-80 object-cover object-center md:shadow-2xl md:shadow-gray-500 "/>
+                <img src={jacob} alt="Jacob Damasco" className="rounded-xl w-80 object-cover object-center md:"/>
                 </Fade>
             </div>
         </div>

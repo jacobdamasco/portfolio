@@ -8,13 +8,13 @@ const ProjectCard = ({title, description, buttonText}) => {
         <Fade bottom>
         <div className="justify-center">
             {/* img container */}
-            <div className="hidden md:flex lg:flex-col lg:basis-[45%]">
-                <img src={ocr} alt="OCR: Optical Character Recognition" className="h-full object-cover object-left lg:shadow-2xl lg:shadow-gray-600"/>
+            <div className="hidden md:flex">
+                <img src={ocr} alt="OCR: Optical Character Recognition" className="h-30"/>
             </div>
 
             {/* description container */}
             <div className="">
-            <div className="bg-green-5 py-8 mx-10 rounded-xl space-y-4">
+            <div className="bg-green-6 bg-opacity-40 py-8 mx-10 rounded-xl space-y-4">
                 <div className="flex flex-row justify-center">
                     <h1 className="text-green-3 text-[1.75rem] font-bold">{title}</h1>
                 </div>

@@ -7,7 +7,7 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
     return (
     <>
-    <div id="projects" className="flex flex-col bg-green-6 px-4 py-4">
+    <div id="projects" className="flex flex-col bg-green-5 px-4 py-4">
         <div className="flex flex-row text-green-1 text-3xl font-black px-4 py-8">Projects</div>
 
         {/* project container */}
