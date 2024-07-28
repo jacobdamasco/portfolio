@@ -6,9 +6,9 @@ const Experiences = ({}) => {
     <>
     <div id="experiences" className="flex flex-col bg-green-6 px-4 py-4">
         <Fade bottom>
-        <div className="flex flex-row text-green-1 text-3xl font-black p-4 md:pt-4 md:pb-0 md:px-12 lg:text-4xl">Where I've Worked</div>
+        <div className="flex flex-row text-green-1 text-3xl font-black p-4 md:pt-4 md:pb-0 md:px-12 lg:text-4xl xl:px-16">Where I've Worked</div>
         </Fade>
-        <div className="flex flex-col space-y-6 py-4 pb-8 md:grid md:pb-16">
+        <div className="flex flex-col space-y-6 py-4 pb-8 md:grid md:pb-16 xl:px-24">
             <ExperienceCard 
                 dates="May 2024 - Current" 
                 company="LACERA" 

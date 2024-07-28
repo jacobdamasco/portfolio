@@ -31,14 +31,14 @@ const Navbar = () => {
             <div className="basis-[10%] justify-center md:hidden" onClick={() => handleNavClick()}><svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 25 25" width="35" height="35" xmlns="http://www.w3.org/2000/svg" fill="#daf1de"><path d="m11 16.745c0-.414.336-.75.75-.75h9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75zm-9-5c0-.414.336-.75.75-.75h18.5c.414 0 .75.336.75.75s-.336.75-.75.75h-18.5c-.414 0-.75-.336-.75-.75zm4-5c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75z" fill-rule="nonzero"/></svg></div>
 
             {/* navbar, right side */}
-            <div className="hidden md:flex md:basis-[12%] md:justify-center md:items-center md:text-green-1">
-                <Link to="about" spy={true} smooth={true} offset={1} duration={1000}><ul className="show-cursor nav-elem">About</ul></Link>
+            <div className="hidden md:flex md:basis-[12%] md:justify-center md:items-center md:text-green-1 xl:text-base">
+                <Link to="about" spy={true} smooth={true} offset={1} duration={1000}><ul className="show-cursor nav-elem hover:font-black">About</ul></Link>
             </div>
-            <div className="hidden md:flex md:basis-[12%] md:justify-center md:items-center md:text-green-1">
-                <Link to="projects" spy={true} smooth={true} offset={1} duration={1000}><ul className="show-cursor nav-elem">Projects</ul></Link>
+            <div className="hidden md:flex md:basis-[12%] md:justify-center md:items-center md:text-green-1 xl:text-base">
+                <Link to="projects" spy={true} smooth={true} offset={1} duration={1000}><ul className="show-cursor nav-elem hover:font-black">Projects</ul></Link>
             </div>
-            <div className="hidden md:flex md:basis-[12%] md:justify-center md:items-center md:text-green-1">
-                <Link to="contact" spy={true} smooth={true} offset={1} duration={1000} onClick={close}><ul className="show-cursor nav-elem">Contact</ul></Link>
+            <div className="hidden md:flex md:basis-[12%] md:justify-center md:items-center md:text-green-1 xl:text-base">
+                <Link to="contact" spy={true} smooth={true} offset={1} duration={1000} onClick={close}><ul className="show-cursor nav-elem hover:font-black">Contact</ul></Link>
             </div>
         </div>
 

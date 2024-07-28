@@ -9,7 +9,7 @@ const Projects = () => {
     return (
     <>
     <div id="projects" className="flex flex-col bg-green-5 px-4 py-4">
-        <div className="flex flex-row text-green-1 text-3xl font-black px-4 py-8 md:px-12">Projects</div>
+        <div className="flex flex-row text-green-1 text-3xl font-black px-4 py-8 md:px-12 lg:text-4xl xl:px-16">Projects</div>
 
         {/* project container */}
         <div className="space-y-14 text-sm px-6 pb-12 md:space-y-12 md:px-24 lg:space-y-16 lg:px-24 xl:px-20 xl:space-y-20"> 
