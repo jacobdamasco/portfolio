@@ -5,9 +5,9 @@ const About = () => {
         <>
         <div id="about" className="flex flex-col bg-green-5 placeholder:max-w-fit px-4 py-8 space-y-2">
             <Fade bottom>
-            <div className="flex flex-row text-green-1 text-3xl font-black p-4 md:px-12">About</div>
+            <div className="flex flex-row text-green-1 text-3xl font-black p-4 md:px-12 lg:text-4xl">About</div>
             </Fade>
-            <div className="px-8 pb-10 space-y-4 text-green-2 text-sm md:px-24 md:text-[14.5px]">
+            <div className="px-8 pb-10 space-y-4 text-green-2 text-sm md:px-24 md:text-[14.5px] lg:text-base">
                 <Fade bottom>
                 <p className="flex flex-row">
                     Hi! My name is Jacob and I love all things tech. I grew up being surrounded by tech and loved being around it so much that I’ve become a software engineer!
