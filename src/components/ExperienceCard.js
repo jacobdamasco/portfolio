@@ -11,7 +11,7 @@ const ExperienceCard = ({ dates, company, title, description }) => {
 
     {/* non mobile screens */}
     <Fade bottom>
-    <div className="hidden md:grid md:grid-cols-12 md:gap-y-0 md:px-24 md:text-green-3 md:font-light">
+    <div className="hidden md:grid md:grid-cols-12 md:gap-y-0 md:px-24 md:pb-4 md:text-green-3 md:font-light">
         <div className="col-span-3 text-[11px] pb-2">{dates}</div>
         <div className="col-span-9 pr-16">
             <div className="text-green-1 text-xl font-bold">{company}</div>

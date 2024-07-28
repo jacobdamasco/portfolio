@@ -24,28 +24,28 @@ const Hero = () => {
                 <Fade bottom cascade>
                 {/* links */}
                 <div className="flex items-center justify-items-center">
-                    <div className="flex basis-1/4 items-center justify-center">
-                        <button className="rounded-xl bg-green-4 text-green-2 px-4 py-1.5 hover:bg-green-3 hover:bg-opacity-40 hover:text-green-2 hover:font-bold md:mr-3">
+                    <div className="flex basis-[34%] items-center justify-center">
+                        <button className="text-base rounded-xl bg-green-4 text-green-2 px-4 py-1.5 hover:bg-green-3 hover:bg-opacity-40 hover:text-green-2 hover:font-bold md:mr-3">
                             <a href={resume} target="_blank" rel="noreferrer">Resume</a>
                         </button>
                     </div>
 
                     {/* LinkedIn */}
-                    <div className="flex basis-1/4 items-center justify-center">
+                    <div className="flex basis-[22%] items-center justify-center">
                         <a href="https://www.linkedin.com/in/jrdamasco/" target="_blank" rel="noreferrer">
                             <img src={linkedin} alt="Jacob Damasco" className="w-8"/>
                         </a>
                     </div>
 
                     {/* Github */}
-                    <div className="flex basis-1/4 items-center justify-center">
+                    <div className="flex basis-[22%] items-center justify-center">
                         <a href="https://github.com/jacobdamasco" target="_blank" rel="noreferrer">
                             <img src={github} alt="Jacob Damasco" className="w-8"/>   
                         </a>
                     </div>
 
                     {/* Mail */}
-                    <div className="flex basis-1/4 items-center justify-center">
+                    <div className="flex basis-[22%] items-center justify-center">
                         <a href="mailto:damasco@usc.edu" target="_blank" rel="noreferrer">
                             <img src={mail} alt="Jacob Damasco" className="w-8"/>  
                         </a>

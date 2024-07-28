@@ -6,14 +6,14 @@ const Experiences = ({}) => {
     <>
     <div id="experiences" className="flex flex-col bg-green-6 px-4 py-4">
         <Fade bottom>
-        <div className="flex flex-row text-green-1 text-3xl font-black p-4 md:px-12 md:pt-4">Where I've Worked</div>
+        <div className="flex flex-row text-green-1 text-3xl font-black p-4 md:pt-4 md:pb-0 md:px-12">Where I've Worked</div>
         </Fade>
-        <div className="flex flex-col space-y-6 py-4 md:grid md:py-0">
+        <div className="flex flex-col space-y-6 py-4 pb-8 md:grid md:pb-16">
             <ExperienceCard 
                 dates="May 2024 - Current" 
                 company="LACERA" 
                 title="Software Engineer Intern"
-                description="Developed robust test automation scripts for application monitoring tools using TypeScript, JavaScript, Node.js, and Microsoft Playwright, reducing manual end-to-end testing time by over 40 hours per month. Automated dynamic email and text message confirmations for two-factor authentication and account activity notifications for 188,000+ registered LACERA members via the Twilio and SendGrid APIs."
+                description="Developed robust test automation scripts for application monitoring tools using TypeScript, JavaScript, Node.js, and Microsoft Playwright, reducing manual end-to-end testing time by over 40 hours per month. Automated two-factor authentication notifications for 188,000+ registered LACERA members via the Twilio and SendGrid APIs."
             />
             <ExperienceCard 
                 dates="May - Aug 2023" 
