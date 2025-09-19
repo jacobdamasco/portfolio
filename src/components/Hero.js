@@ -16,7 +16,7 @@ const Hero = () => {
                         <h1 className="">Hi, I'm</h1>
                         <h1 className="text-green-1 text-4xl font-black drop-shadow-1 md:text-[44px] lg:text-[3.75rem] xl:text-[5rem]">Jacob Damasco.</h1>
                         <p className="">
-                        I'm a <span className="text-green-3 hover:font-bold hover:cursor-default">software engineering intern</span> at LACERA building products & tools with <span className="text-green-3 hover:font-bold hover:cursor-default">TypeScript & Node.js</span>. 
+                        I'm a <span className="text-green-3 hover:font-bold hover:cursor-default">software engineer</span> building customer facing tools with <span className="text-green-3 hover:font-bold hover:cursor-default">Java</span>. 
                         </p>
                     </div>
                 </Fade>

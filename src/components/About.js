@@ -15,7 +15,7 @@ const About = () => {
                 </Fade>
                 <Fade bottom>
                 <p className="flex flex-row">
-                    I’m currently at USC studying computer science and engineering. Prior to USC, I graduated with a B.S. in Physics from the University of San Francisco. Some of the new technologies I've picked up recently:
+                    I’m a recent grad from USC with a B.S. in Computer Science & Engineering. Prior to USC, I graduated with a B.S. in Physics from the University of San Francisco.
                 </p>
                 <p className="flex flex-row">
                     Some of the new technologies I've picked up recently:

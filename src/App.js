@@ -10,12 +10,12 @@ import Experiences from './components/Experiences.js';
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <About />
       <Experiences />
       <Projects />
-      <Contact />
+      <Contact /> */}
       <Footer />
     </>
   );
